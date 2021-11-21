@@ -67,7 +67,6 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Fire base Otp auth</h1>
         <h2>Login Form</h2>
         <form onSubmit={this.onSignInSubmit}>
           <div id="sign-in-button"></div>
